@@ -1,0 +1,27 @@
+During this project, several improvisations were made to enhance model accuracy, data understanding, and analytical quality:
+1.Problem Statement Definition:
+Defined the core objective — to analyze electric vehicle (EV) specifications and predict
+ their driving range (in km) based on technical and design parameters. This focused 
+approach helped align the project towards understanding which features most influence EV range.
+
+2.Dataset Selection and Preparation:
+Used the Electric Vehicles Specification 2025 dataset, which includes 
+detailed vehicle attributes such as battery capacity, efficiency, torque, charging power, and dimensions.
+The dataset was cleaned by removing columns with high missing values, imputing numeric
+and categorical gaps, and ensuring consistent data types for analysis.
+
+3.Feature Engineering:
+Explored correlations among variables to identify the strongest predictors of range, 
+including battery capacity, top speed, and fast-charging power. 
+Created a refined feature set that improved the predictive performance of the models.
+
+4.Model Optimization:
+Implemented and compared multiple models — Simple Linear Regression, Multivariate Linear Regression,
+and Random Forest Regression. After optimization, the Random Forest model achieved the 
+highest accuracy with an R² score of 0.9555, predicting EV range with an average error of approximately ±16 km.
+
+5.Visualization and Result Interpretation:
+Developed correlation heatmaps and feature importance plots to visualize how 
+different specifications affect EV range. Summarized model performance metrics (MSE, MAE, and R²) 
+in a comparison table for a clear and transparent evaluation of results.
+
